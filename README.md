@@ -12,17 +12,18 @@ Clone this repo and begin your project setup.
 
 Remember that once you clone, you will still need to install everything:
 
-***cd into project directory***
-***npm install***
+-***cd into project directory***
+
+-***npm install***
 
 Install necessary packages:
 
-***npm i -D @babel/core @babel/preset-env babel-loader***
-***npm i -D style-loader node-sass css-loader sass-loader***
-***npm i -D clean-webpack-plugin***
-***npm i -D html-webpack-plugin***
-***npm i -D mini-css-extract-plugin***
-***npm i -D optimize-css-assets-webpack-plugin terser-webpack-plugin***
+-***npm i -D @babel/core @babel/preset-env babel-loader***
+-***npm i -D style-loader node-sass css-loader sass-loader***
+-***npm i -D clean-webpack-plugin***
+-***npm i -D html-webpack-plugin***
+-***npm i -D mini-css-extract-plugin***
+-***npm i -D optimize-css-assets-webpack-plugin terser-webpack-plugin***
 
 ## Stage 2 - Setting up the API
 Visit __meaningcloud.com__ and register for your API key
@@ -30,10 +31,10 @@ Visit __meaningcloud.com__ and register for your API key
 
 ## Stage 3 - Configure dotenv
 Install the dotenv package and create a new .env to store the API key:
-***npm i -D dotenv***
-***Create a new .env file in the root of your project***
-***Go to your .gitignore file and add .env***
-***Fill the .env file with your API keys like this:***
+-***npm i -D dotenv***
+-***Create a new .env file in the root of your project***
+-***Go to your .gitignore file and add .env***
+-***Fill the .env file with your API keys like this:***
 
 __API_KEY=*************************__
 
