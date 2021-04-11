@@ -31,7 +31,7 @@ app.listen(8090, function () {
 
 let text = []
 const apiKey = process.env.API_KEY
-app.post('/getSent', async function(req, res) {
+app.post('/api', async function(req, res) {
     text = req.body.name;
     const response = await fetch('https://api.meaningcloud.com/sentiment-2.1?key=' + apiKey + '&lang=en&txt=' + text)
     console.log('Your API key is ' + apiKey)

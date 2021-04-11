@@ -7,7 +7,7 @@ function handleSubmit(event) {
     Client.checkForName(formText)
     console.log("::: Form Submitted :::")
 
-    postData('http://localhost:8090/getSent', {name: formText})
+    postData('http://localhost:8090/api', {name: formText})
    .then(function(res) {
      document.getElementById('agreement').innerHTML = 'Agreement: ' + res.agreement;
      document.getElementById('confidence').innerHTML = 'Confidence: ' + res.confidence;
