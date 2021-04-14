@@ -14,7 +14,5 @@ console.log(checkForName);
 
 export {
     checkForName,
-    handleSubmit,
-    
-
+    handleSubmit
 }
