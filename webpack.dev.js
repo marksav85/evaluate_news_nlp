@@ -15,6 +15,15 @@ module.exports = {
     mode: 'development',
     devtool: 'source-map',
     stats: 'verbose',
+    /*devServer: {
+        host: 'localhost',
+        port: 8080,
+        proxy: {
+          context: () => true,
+          target: 'http://localhost:8090',
+          secure: false
+        }
+    },*/
     module: {
         rules: [
             {
