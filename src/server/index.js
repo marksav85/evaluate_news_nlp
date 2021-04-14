@@ -6,6 +6,8 @@ const mockAPIResponse = require('./mockAPI.js')
 var bodyParser = require('body-parser')
 var cors = require('cors')
 const fetch = require('node-fetch')
+let text = []
+const apiKey = process.env.API_KEY
 
 const app = express()
 app.use(cors())
@@ -29,8 +31,7 @@ app.listen(8090, function () {
     console.log('App successfully listening on port 8090!')
 })
 
-let text = []
-const apiKey = process.env.API_KEY
+
 app.post('/api', async function(req, res) {
     text = req.body.name;
     const response = await fetch('https://api.meaningcloud.com/sentiment-2.1?key=' + apiKey + '&lang=en&txt=' + text)
