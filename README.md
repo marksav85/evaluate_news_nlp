@@ -1,9 +1,9 @@
 # Project Instructions
 This will build a web tool that allows users to run Natural Language Processing
-(NLP) on any text entered into the text field. NLP is the ability of an
+(NLP) on any website article when the URL is entered into the text field. NLP is the ability of an
 application to understand the human language, written or oral.
 
-This tool will help us classify the information available in the text or
+This tool will help us classify the information available in the
 article, and check the content for _agreement_, _confidence_ and _irony_.
 
 ## Stage 1 - Getting Started - Setting up the Project
@@ -47,4 +47,4 @@ Then:
 
 ***npm run start***
 
-Go to http://localhost:8090/ and try it out.
+Go to http://localhost:8090/ and enter a valid URL to try it out.
