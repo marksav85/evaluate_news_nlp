@@ -20,7 +20,8 @@
     "express": "^4.17.1",
     "node": "^15.12.0",
     "node-fetch": "^2.6.1",
-    "regenerator-runtime": "^0.13.7"
+    "regenerator-runtime": "^0.13.7",
+    "valid-url": "^1.0.9"
   },
   "devDependencies": {
     "@babel/core": "^7.13.15",
