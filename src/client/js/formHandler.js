@@ -4,7 +4,7 @@ function handleSubmit(event) {
     // check what text was put into the form field
     let formText = document.getElementById('name').value
 
-    Client.checkForName(formText)
+    Client.checkForUrl(formText)
     console.log("::: Form Submitted :::")
 
     postData('http://localhost:8090/api', {name: formText})
