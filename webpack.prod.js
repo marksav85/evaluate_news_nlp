@@ -12,8 +12,7 @@ module.exports = {
     },
     output: {
         libraryTarget: 'var',
-        library: 'Client',
-        clean: true, // Clean the output directory before emit.
+        library: 'Client'
     },
     mode: 'production',
     module: {
