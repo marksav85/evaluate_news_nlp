@@ -8,10 +8,6 @@ function checkForUrl(inputText) {
     else {
         alert("Invalid URL");
     }
-
-    /*if(names.includes(inputText)) {
-        alert("Welcome, Captain!")
-    }*/
 }
 
 export { checkForUrl }
