@@ -41,3 +41,5 @@ app.post('/api', async function(req, res) {
     console.log(addData)
     res.send(addData)
 })
+
+module.exports = app
